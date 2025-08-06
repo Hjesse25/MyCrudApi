@@ -1,0 +1,8 @@
+GET http://localhost:5118
+
+###
+GET http://localhost:5118/api/games
+
+###
+GET http://localhost:5118/api/games/2
+
