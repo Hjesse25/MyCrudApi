@@ -4,5 +4,28 @@ GET http://localhost:5118
 GET http://localhost:5118/api/games
 
 ###
-GET http://localhost:5118/api/games/2
+GET http://localhost:5118/api/games/0
+
+###
+POST http://localhost:5118/api/games
+Content-Type: application/json
+
+{
+    "id": 3,
+    "title": "Legend of Zelda: Breath of the Wild",
+    "price": 69.99
+}
+
+###
+PUT http://localhost:5118/api/games/0
+Content-Type: application/json
+
+{
+    "id": 1,
+    "title": "New Super Mario Bros Wii",
+    "price": 29.99
+}
+
+###
+DELETE http://localhost:5118/api/games/2
 
